@@ -1,0 +1,25 @@
+GET http://localhost:8001/partner/list
+
+
+###
+
+POST http://localhost:8001/partner/register
+Content-Type: application/json
+
+{
+    "name":"Naidik",
+    "phone":9617554,
+    "images":"sdjfhajkfhajkhflh",
+    "password":"therockInworld",
+    "pass":"therockInworld"
+} 
+
+###
+POST http://localhost:8001/partner/login
+Content-Type: application/json
+
+{
+    "contact":9617554,
+    "password":"therockInworld"
+    
+}
